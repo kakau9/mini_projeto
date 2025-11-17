@@ -1,0 +1,60 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    background-color: #f1f8fc;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    color:#49a4aa;
+}
+
+#nota{
+    padding: 8px;
+    width: 250px;
+}
+
+#add, #Remover, #RemoverTudo{
+    padding: 8px 12px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4ca8af;
+    color: white;
+    cursor: pointer;
+}
+
+#container, #naoUrgente {
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+#container {
+    border-color: red;
+}
+
+#naoUrgente {
+    border-color: #3bda55;
+}
+
+p {
+    padding: 10px;
+    border: 1px solid #d1edff;
+    border-radius: 5px;
+    margin: 8px 0;
+}
+
+.azul {
+    background-color: #99ccff;
+}
+
+.verde {
+    background-color: #99ff99;
+}
+
+.roxo {
+    background-color: #cc99ff;
+}
